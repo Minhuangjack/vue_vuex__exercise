@@ -32,6 +32,8 @@ module.exports = {
         vue: 'never',
       },
     ],
+	"no-tabs":"off",
+  "max-len" : ["error", {code : 300}],
     'no-console': 'off',
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
